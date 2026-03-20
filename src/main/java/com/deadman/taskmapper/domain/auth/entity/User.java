@@ -24,9 +24,9 @@ public class User {
 
     @Embedded
     @Valid
-    private Email email;
+    private Email Email;
 
     @Embedded
     @Valid
-    private Password password;
+    private Password Password;
 }
