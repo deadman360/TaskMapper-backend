@@ -15,14 +15,14 @@ import lombok.Setter;
 public class Note {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
 
-    private String Content;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    private Task CurrentTask;
+    private String content;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    private Task CreatedByTask;
+    private Task currenttask;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Task createdbytask;
 
 }
