@@ -1,4 +1,4 @@
-package com.deadman.taskmapper.domain.roadmap.entity;
+package com.deadman.taskmapper.domain.task.entity;
 
 
 import com.deadman.taskmapper.domain.auth.entity.User;
@@ -32,8 +32,8 @@ public class Task {
     private List<Task> children = new ArrayList<>();
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "owner_id")
-    private User owner;
+    @JoinColumn(name = "created_by_id")
+    private User created_by;
 
     private Boolean completed = false;
 }

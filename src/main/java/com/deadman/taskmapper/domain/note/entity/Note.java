@@ -1,5 +1,6 @@
-package com.deadman.taskmapper.domain.roadmap.entity;
+package com.deadman.taskmapper.domain.note.entity;
 
+import com.deadman.taskmapper.domain.task.entity.Task;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
