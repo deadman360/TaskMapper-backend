@@ -1,7 +1,7 @@
-package com.deadman.taskmapper.domain.task.entity;
+package com.deadman.taskmapper.domain.task;
 
 
-import com.deadman.taskmapper.domain.auth.entity.User;
+import com.deadman.taskmapper.domain.auth.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -34,6 +34,8 @@ public class Task {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "created_by_id")
     private User created_by;
+
+    private String img_url;
 
     private Boolean completed = false;
 }

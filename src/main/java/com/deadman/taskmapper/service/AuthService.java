@@ -1,10 +1,10 @@
-package com.deadman.taskmapper.domain.auth.service;
+package com.deadman.taskmapper.service;
 
+import com.deadman.taskmapper.domain.auth.User;
 import com.deadman.taskmapper.domain.auth.dto.request.LoginRequest;
 import com.deadman.taskmapper.domain.auth.dto.request.RegisterUserRequest;
 import com.deadman.taskmapper.domain.auth.dto.response.LoginResponse;
 import com.deadman.taskmapper.domain.auth.dto.response.RegisterUserResponse;
-import com.deadman.taskmapper.domain.auth.entity.User;
 import com.deadman.taskmapper.infrastructure.config.TokenConfig;
 import com.deadman.taskmapper.infrastructure.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

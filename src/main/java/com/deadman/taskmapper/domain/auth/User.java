@@ -1,4 +1,4 @@
-package com.deadman.taskmapper.domain.auth.entity;
+package com.deadman.taskmapper.domain.auth;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

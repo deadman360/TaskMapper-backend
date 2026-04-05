@@ -4,7 +4,7 @@ import com.deadman.taskmapper.domain.auth.dto.request.LoginRequest;
 import com.deadman.taskmapper.domain.auth.dto.request.RegisterUserRequest;
 import com.deadman.taskmapper.domain.auth.dto.response.LoginResponse;
 import com.deadman.taskmapper.domain.auth.dto.response.RegisterUserResponse;
-import com.deadman.taskmapper.domain.auth.service.AuthService;
+import com.deadman.taskmapper.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
